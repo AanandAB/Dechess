@@ -12,3 +12,5 @@ export '/wallet/wallet_widget.dart' show WalletWidget;
 export '/editprofile/editprofile_widget.dart' show EditprofileWidget;
 export '/accsettings/accsettings_widget.dart' show AccsettingsWidget;
 export '/aipage/aipage_widget.dart' show AipageWidget;
+export '/game_screen/game_screen_widget.dart' show GameScreenWidget;
+export '/game_archive/game_archive_widget.dart' show GameArchiveWidget;

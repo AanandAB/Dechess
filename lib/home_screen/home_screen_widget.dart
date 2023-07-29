@@ -115,8 +115,8 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                       padding:
                           EdgeInsetsDirectional.fromSTEB(0.0, 122.0, 0.0, 32.0),
                       child: FFButtonWidget(
-                        onPressed: () {
-                          print('Button pressed ...');
+                        onPressed: () async {
+                          context.pushNamed('Game_Screen');
                         },
                         text: 'Play Online',
                         options: FFButtonOptions(
@@ -204,8 +204,8 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                 Padding(
                   padding: EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 32.0),
                   child: FFButtonWidget(
-                    onPressed: () {
-                      print('Button pressed ...');
+                    onPressed: () async {
+                      context.pushNamed('Game_Archive');
                     },
                     text: 'Game Archieve',
                     options: FFButtonOptions(
