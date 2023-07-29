@@ -1,0 +1,187 @@
+{
+  "project_info": {
+    "project_number": "292129014662",
+    "firebase_url": "https://knightly-6807d-default-rtdb.firebaseio.com",
+    "project_id": "knightly-6807d",
+    "storage_bucket": "knightly-6807d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292129014662:android:cedc412076349c9bbd2207",
+        "android_client_info": {
+          "package_name": "com.knightly.knightly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292129014662-08o3cimr79enbd5vb5fr665pe3dmdop7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.knightly.knightly",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE9WTqiGoNeW6KXoKQ_Vj764yd5C5iib4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292129014662-dur5ibjs69vtfpaercbmqp2865ecb9ng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dechess.com"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292129014662:android:65593521cb3cf28abd2207",
+        "android_client_info": {
+          "package_name": "dechess.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292129014662-d5b2dp2fb5o3a5ej92tkis82auc7p4c3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "dechess.com",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE9WTqiGoNeW6KXoKQ_Vj764yd5C5iib4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292129014662-dur5ibjs69vtfpaercbmqp2865ecb9ng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dechess.com"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292129014662:android:5898897a8e3dd60cbd2207",
+        "android_client_info": {
+          "package_name": "knightly.com"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292129014662-s82tmajsmge388e0po1qi307vtrsqqk3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "knightly.com",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE9WTqiGoNeW6KXoKQ_Vj764yd5C5iib4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292129014662-dur5ibjs69vtfpaercbmqp2865ecb9ng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dechess.com"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:292129014662:android:76f42407009933f6bd2207",
+        "android_client_info": {
+          "package_name": "knightly.knightly"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "292129014662-1fmkv3pi2ljjit8ltg2gcpm7tbh8e02h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "knightly.knightly",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBE9WTqiGoNeW6KXoKQ_Vj764yd5C5iib4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "292129014662-5er5qse0m56hao90ublejo6fr7uau9t7.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "292129014662-dur5ibjs69vtfpaercbmqp2865ecb9ng.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "dechess.com"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>292129014662-i6achnkc8vpje4au4b0i8bvgs49js46n.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.292129014662-i6achnkc8vpje4au4b0i8bvgs49js46n</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>292129014662-08o3cimr79enbd5vb5fr665pe3dmdop7.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDIMX_IrEwbf02_Bhs6D-5cfjD-C_B3b54</string>
+	<key>GCM_SENDER_ID</key>
+	<string>292129014662</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>knightly.com</string>
+	<key>PROJECT_ID</key>
+	<string>knightly-6807d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>knightly-6807d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:292129014662:ios:d7031749dc6d2993bd2207</string>
+	<key>DATABASE_URL</key>
+	<string>https://knightly-6807d-default-rtdb.firebaseio.com</string>
+</dict>
+</plist>
