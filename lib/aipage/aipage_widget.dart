@@ -84,8 +84,8 @@ class _AipageWidgetState extends State<AipageWidget> {
                     padding:
                         EdgeInsetsDirectional.fromSTEB(0.0, 250.0, 0.0, 32.0),
                     child: FFButtonWidget(
-                      onPressed: () {
-                        print('Button pressed ...');
+                      onPressed: () async {
+                        context.pushNamed('Game_Screen');
                       },
                       text: 'Easy',
                       options: FFButtonOptions(
@@ -115,7 +115,7 @@ class _AipageWidgetState extends State<AipageWidget> {
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 32.0),
                     child: FFButtonWidget(
                       onPressed: () async {
-                        context.pushNamed('leaderboard');
+                        context.pushNamed('Game_Screen');
                       },
                       text: 'Medium',
                       options: FFButtonOptions(
@@ -145,7 +145,7 @@ class _AipageWidgetState extends State<AipageWidget> {
                         EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 32.0),
                     child: FFButtonWidget(
                       onPressed: () async {
-                        context.pushNamed('gamereview');
+                        context.pushNamed('Game_Screen');
                       },
                       text: 'Difficult',
                       options: FFButtonOptions(

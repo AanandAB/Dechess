@@ -158,6 +158,16 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
           name: 'aipage',
           path: '/aipage',
           builder: (context, params) => AipageWidget(),
+        ),
+        FFRoute(
+          name: 'Game_Screen',
+          path: '/gameScreen',
+          builder: (context, params) => GameScreenWidget(),
+        ),
+        FFRoute(
+          name: 'Game_Archive',
+          path: '/gameArchive',
+          builder: (context, params) => GameArchiveWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
