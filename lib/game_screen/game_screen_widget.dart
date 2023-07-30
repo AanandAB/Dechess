@@ -4,6 +4,7 @@ import '/flutter_flow/flutter_flow_util.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'gameBoard.dart';
 import 'game_screen_model.dart';
 export 'game_screen_model.dart';
 
@@ -68,13 +69,7 @@ class _GameScreenWidgetState extends State<GameScreenWidget> {
           centerTitle: true,
           elevation: 2.0,
         ),
-        body: SafeArea(
-          top: true,
-          child: Column(
-            mainAxisSize: MainAxisSize.max,
-            children: [],
-          ),
-        ),
+        body: BoardGame(),
       ),
     );
   }
