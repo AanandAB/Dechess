@@ -7,6 +7,8 @@ import 'package:flutter/material.dart';
 import 'package:flutter/scheduler.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
+import 'package:walletconnect_dart/walletconnect_dart.dart';
+import 'package:url_launcher/url_launcher_string.dart';
 import 'home_screen_model.dart';
 export 'home_screen_model.dart';
 
@@ -21,6 +23,33 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
   late HomeScreenModel _model;
 
   final scaffoldKey = GlobalKey<ScaffoldState>();
+
+  /* var connector = WalletConnect(
+      bridge: 'https://bridge.walletconnect.org',
+      clientMeta: const PeerMeta(
+          name: 'My App',
+          description: 'An app for converting pictures to NFT',
+          url: 'https://walletconnect.org',
+          icons: [
+            'https://files.gitbook.com/v0/b/gitbook-legacy-files/o/spaces%2F-LJJeCjcLrr53DcT1Ml7%2Favatar.png?alt=media'
+          ]));
+  var _session, _uri;
+
+  loginUsingMetamask(BuildContext context) async {
+    if (!connector.connected) {
+      try {
+        var session = await connector.createSession(onDisplayUri: (uri) async {
+          _uri = uri;
+          await launchUrlString(uri, mode: LaunchMode.);
+        });
+        setState(() {
+          _session = session;
+        });
+      } catch (exp) {
+        print(exp);
+      }
+    }
+  }*/
 
   @override
   void initState() {
@@ -74,9 +103,7 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                 color: Color(0xFF0FD3CB),
                 size: 24.0,
               ),
-              onPressed: () {
-                print('IconButton pressed ...');
-              },
+              onPressed: () {},
             ),
             FlutterFlowIconButton(
               borderColor: FlutterFlowTheme.of(context).primary,
