@@ -74,8 +74,8 @@ class _HomeScreenWidgetState extends State<HomeScreenWidget> {
                 color: Color(0xFF0FD3CB),
                 size: 24.0,
               ),
-              onPressed: () {
-                print('IconButton pressed ...');
+              onPressed: () async {
+                context.pushNamed('wallet');
               },
             ),
             FlutterFlowIconButton(
